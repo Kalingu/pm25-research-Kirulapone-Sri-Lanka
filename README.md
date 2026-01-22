@@ -32,6 +32,9 @@ This project forecasts hourly PM2.5 air pollution levels in Kirulapone, Colombo 
 <img width="642" height="377" alt="image" src="https://github.com/user-attachments/assets/eff9b3ba-b9ae-465c-a43e-36584bd887dd" />
 <img width="640" height="377" alt="image" src="https://github.com/user-attachments/assets/30c63374-91ae-4346-b22e-ee611c3b40cd" />
 
+## LSTM vs N-BEATS: Actual vs Predicted PM2.5
+<img width="819" height="312" alt="Picture3" src="https://github.com/user-attachments/assets/19417fdf-b8c8-4d98-acea-253fd577d78b" />
+
 
 ## How to Run
 
