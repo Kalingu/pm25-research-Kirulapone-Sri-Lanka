@@ -39,8 +39,9 @@ The models were evaluated on standard metrics to predict hourly PM2.5 levels in 
 
 ## Visualizations - LSTM Model/N-BEATS Model Training vs Validation Curve
 
-<img width="720" height="407" alt="Picture2" src="https://github.com/user-attachments/assets/f4620e95-ea76-44e7-9836-73772d7e82da" />
-<img width="672" height="380" alt="Picture1" src="https://github.com/user-attachments/assets/c06bc621-083d-44f4-9c6d-89e34c42627c" />
+<img width="642" height="377" alt="image" src="https://github.com/user-attachments/assets/eff9b3ba-b9ae-465c-a43e-36584bd887dd" />
+<img width="640" height="377" alt="image" src="https://github.com/user-attachments/assets/30c63374-91ae-4346-b22e-ee611c3b40cd" />
+
 
 ## Usage
 
