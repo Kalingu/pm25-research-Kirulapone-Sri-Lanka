@@ -39,7 +39,7 @@ The models were evaluated on standard metrics to predict hourly PM2.5 levels in 
 
 ## Visualizations
 ![Forecast vs Actual](path/to/forecast_plot.png)
-<img width="672" height="380" alt="Picture1" src="https://github.com/user-attachments/assets/65b9dccf-c69a-44ba-921c-20ac7b54d24c" />
+<img width="672" height="380" alt="Picture1" src="https://github.com/user-attachments/assets/7abbe7b2-af1a-4d52-a6d1-a99aa46232f2" />
 
 
 ## Usage
