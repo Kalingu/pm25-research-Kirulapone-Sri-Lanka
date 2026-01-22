@@ -3,6 +3,17 @@
 PM2.5 Air Quality Forecasting for Kirulapone (Colombo)
 Predicting hourly PM2.5 pollution levels using time‑series deep learning models (LSTM and N‑BEATS) with key evaluation metrics. This project was completed as the final research project for the Higher National Diploma in Data Science (HNDDS) at NIBM.
 
+## Dataset
+
+- **Source:** Local air quality monitoring station, Kirulapone, Colombo  
+- **Time period:** Hourly readings from **9th January 2022 to 5th December 2025**  
+- **Number of records:** 24,864  
+- **Features:** 
+  - **Target variable:** `pm2_5` (fine particulate matter)  
+  - **Other environmental variables:** `pm10`, `carbon_monoxide`, `carbon_dioxide`, `nitrogen_dioxide`, `sulphur_dioxide`, `ozone`, `aerosol_optical_depth`, `dust`, `uv_index`, `uv_index_clear_sky`, `ammonia`, `methane`  
+- **Data quality:** No missing values in the `pm2_5` column
+- 
+
 ## Project Structure
 
 
@@ -13,6 +24,21 @@ Predicting hourly PM2.5 pollution levels using time‑series deep learning model
 - Deep Learning Models: LSTM and N-BEATS  
 - Evaluation Metrics: RMSE, MAE, R², MAPE  
 - Academic research project: part of **HNDDS final research at NIBM**
+
+## Model Results - PM2.5 Forecasting
+
+The models were evaluated on standard metrics to predict hourly PM2.5 levels in Kirulapone.
+
+| Metric | LSTM | N-BEATS |
+|--------|------|---------|
+| MSE    | 4.5972 | 2.7522 |
+| RMSE   | 2.1441 | 1.6590 |
+| MAE    | 1.5150 | 1.1541 |
+| R²     | 0.9056 | 0.9435 |
+| MAPE (%) | 10.6882 | 8.4915 |
+
+**🏆 Winner:** N-BEATS (best overall performance on all metrics)
+
 
 ## Usage
 
