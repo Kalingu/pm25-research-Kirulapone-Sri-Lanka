@@ -1,6 +1,7 @@
 # PM2.5 Forecasting – Colombo (Kirulapone)
 
-This repository contains code and resources for **forecasting hourly PM2.5 concentrations** in Colombo, Kirulapone using **deep learning models**. The project explores **LSTM and N-BEATS** for time-series prediction and is part of the **final research project for the Higher National Diploma in Data Science (HNDDS) at NIBM**.
+PM2.5 Air Quality Forecasting for Kirulapone (Colombo)
+Predicting hourly PM2.5 pollution levels using time‑series deep learning models (LSTM and N‑BEATS) with key evaluation metrics. This project was completed as the final research project for the Higher National Diploma in Data Science (HNDDS) at NIBM.
 
 ## Project Structure
 
