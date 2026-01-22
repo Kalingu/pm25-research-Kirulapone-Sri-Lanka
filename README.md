@@ -14,6 +14,9 @@ Predicting hourly PM2.5 pollution levels using time‑series deep learning model
 
 ## Project Structure
 
+This project compares two forecasting approaches:
+- **LSTM (TensorFlow):** Long Short‑Term Memory network for sequential forecasting.
+- **N‑BEATS (PyTorch):** Neural basis expansion analysis for interpretable time‑series forecasting.
 
 ## Features
 
@@ -45,52 +48,15 @@ The models were evaluated on standard metrics to predict hourly PM2.5 levels in 
 
 ## Usage
 
-1. Install dependencies:
+## How to Run
+1. Clone the repository  
+   `git clone https://github.com/Kalingu/pm25-forecast-kirulapone.git`
+2. Install dependencies  
+   `pip install -r requirements.txt`
+3. Open and run the notebook  
+   `jupyter notebook notebooks/pm25_lstm_nbeats.ipynb`
+4. View results and plots
 
-```bash
-pip install -r requirements.txt
+## License
+This project is licensed under the MIT License — see LICENSE file for details.
 
-Run the notebook:
-
-jupyter notebook notebooks/pm25_lstm_nbeats.ipynb
-
-Trained models (optional):
-
-LSTM: models/lstm_pm25_model.h5
-
-N-BEATS: models/nbeats_pm25_model.pth
-
-Note: Trained models are not included. Run the notebook to train locally.
-
-Customize preprocessing or model parameters in src/ scripts.
-
-License
-
-This project is free for academic or research use.
-For commercial use, contact the author (Kal) for licensing.
-
-References
-
-TensorFlow: https://www.tensorflow.org/
-
-PyTorch: https://pytorch.org/
-
-N-BEATS PyTorch: https://github.com/philipperemy/n-beats
-
-
----
-
-This is **everything you need** to push your repo to GitHub:  
-
-- `src/` with clean scripts  
-- `notebooks/` for workflow  
-- `data/` folder for your CSVs  
-- `requirements.txt` for dependencies  
-- `.gitignore` to keep repo clean  
-- README highlighting **NIBM HNDDS final research**  
-
----
-
-If you want, I can **also draft a ready-to-copy `LICENSE` (dual academic/commercial) for this repo** so you can just add it and push.  
-
-Do you want me to do that?
